@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:vki_hesaplama/card_widget.dart';
 import 'package:vki_hesaplama/sabitler.dart';
@@ -106,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "HEIGHT",
+                    "BOY",
                     style: tsActivCardColor,
                   ),
                   Row(
@@ -152,7 +154,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Weight",
+                        "KILO",
                         style: tsActivCardColor,
                       ),
                       Text(
@@ -206,7 +208,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Age",
+                        "YAS",
                         style: tsActivCardColor,
                       ),
                       Text(
@@ -253,7 +255,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ],
-          ))
+          )),
         ],
       ),
     );
